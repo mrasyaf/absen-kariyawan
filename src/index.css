@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #B91C1C; /* Red-700 */
+  --color-secondary: #D4AF37; /* Gold */
+}
+
+body {
+  @apply font-sans bg-gray-50 text-gray-900;
+}
